@@ -1,0 +1,96 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.nav{
+    height:12vh;
+    width: 100%;
+    background-color: rgb(255, 176, 167);
+    display:flex;
+    padding: 0vh 5vh;
+    justify-content: center;
+    gap:10vh;
+    align-items: center;
+    color: white;
+    
+}
+
+.main h1{
+    margin-left: 4vw;
+    color: rgba(0, 0, 0, 0.405);
+}
+
+#navback{
+    display:flex;
+    align-items: center;
+    gap: 9vh;
+    position: relative;
+    background-color: teal;
+    border-radius: 50px;
+}
+
+.hub{
+    display: flex;
+    gap: 5vh;
+    align-items: center;
+    padding-left: 3vw;
+}
+
+.maindivs{
+    height:65vh;
+    width:16vw;
+    border:6px solid teal;
+    border-radius: 10%;
+}
+
+
+.hub img{
+    height:80vh;
+    width:80vh;
+}
+
+.scroll{
+    height: 7vh;
+    width: 7vh;
+    border-radius: 50%;
+    background-color: #fba298;
+}
+
+#navfor{
+    display: flex;
+    gap:9vh;
+    align-items: center;
+    background-color: rgb(255, 176, 167);
+    border-radius: 50px;
+    padding: 0 2vw;
+}
+
+.nav input{
+    width:50vh;
+    height:7vh;
+    border-radius: 50px;
+}
+
+#nav2{
+    position: relative;
+}
+#nav2 button{
+    position:absolute;
+    right:4%;
+    top:10%;
+    height:5vh;
+    width:5vh;
+    background-color: teal;
+    border-radius: 50%;
+}
+#nav1{
+    display: flex;
+    align-items: center;
+    gap:1vh;
+}
+
+.nav img{
+    height:6vh;
+    padding-left: 1vw;
+}
